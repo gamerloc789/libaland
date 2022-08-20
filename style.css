@@ -1,0 +1,95 @@
+html{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+body{
+    margin: 0;
+    background-image: linear-gradient( 163deg,#19191a,#020202);
+    background-color: #000000;
+}
+.titulop{
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    margin: 10px;
+    font-size: 70px;
+    color: #00a2ff ;
+    text-align: center;
+    line-height: 225px;
+    padding: 20px;
+    border-radius: 25px;
+    background-position: center center;
+    background-image:url(/img/fondotitulo.png);
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+    header{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        min-height: 10px;
+        background-image:linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .logo{
+        align-items: center;
+        display: flex;
+    }
+    .logo img{
+        border-radius: 50px;
+        margin-right: 10px;
+        height: 50px;
+    }
+    nav a{
+        font-family: 600px;
+        padding-right: 10px;
+    }
+    nav a:hover{
+        color: #020202;
+    }
+    @media (max-width:700px){
+        header{
+            flex-direction: column;
+        }
+        nav{
+            padding: 10px 0px;
+        }
+    }
+    .precentaciones{
+        padding: 20px;
+        align-items: center;
+        display: flex;
+        flex-flow: wrap;
+       }
+    .card {
+        margin: 13px;
+        width: 300px;
+        height: 254px;
+        padding: 0%;
+        background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        border-radius: 20px;
+        transition: all .3s;
+       }
+       .card2 img{
+            width: 100%;
+            border-radius: 20px;
+    }
+       .card2 {
+        width: 100%;
+        height: 254px;
+        background-color: #1a1a1a;
+        border-radius:17px;
+        transition: all .2s;
+       }
+       
+       .card2:hover {
+        transform: scale(0.98);
+        border-radius: 20px;
+       }
+       
+       .card:hover {
+        box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+       }
