@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-    background-color:#0f0f0f;
+    background-image: url(img/242836453_237512001749611_6139088193463542990_n.png);
 }
 .titulop{
     padding: 13px;
@@ -30,7 +30,7 @@ a{
         border-bottom-right-radius: 10px;
         display: flex;
         min-height: 10px;
-        background-image:linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        background-image:linear-gradient(163deg, #2b2929 0%, #19191a 100%);
         justify-content: space-between;
         align-items: center;
         padding: 10px;
@@ -75,15 +75,16 @@ a{
         height: auto;
         background-image: linear-gradient( 163deg,#19191a,#2b2929);
         border-radius: 20px;
-        box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+        box-shadow: 0px 0px 30px 1px #00a2ff;
     }
     .headerb{
-        border-right: 1px solid #ddd;
+        border-right: 1px solid #2b2929;
     }
     .descripcion{
         color: #ddd;
-        border-radius: 20px;
-        background-image: linear-gradient( 163deg,#19191a,#2b2929);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #19191a;
     }
     .headerb, .descripcion{
         padding: 20px;
@@ -99,7 +100,6 @@ a{
 
     .headerb img{
         border-radius: 30px;
-        box-shadow: 0 0 0 8px rgba(39, 39, 39, 0.6);
         margin: 20px 30px;
         transition: .2s;
     }
@@ -109,12 +109,14 @@ a{
     color: #00a2ff;
 }
 .headerb h4{
+    color: #00a2ff;
     margin-bottom: 20px;
 }
 .descripcion{
     position: relative;
 }
 .descripcion p {
+    font-size: 22px;
     margin: 20px 30px;
 }
 .descripcion .social{
